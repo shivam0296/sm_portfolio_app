@@ -1,0 +1,35 @@
+.bottom_tab{
+    overflow: hidden;
+    background-color: #2664F5;
+    position: fixed;
+    bottom: 10px;
+    left:500px;
+    width: 40%;
+    transition: all 0.5s ease 0s;
+    border-radius: 25px;
+    height: 5%;
+    text-align: center;
+    
+}
+
+.footer_text{
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana;
+    color: white;
+    display: inline;
+    font-size: small;
+    vertical-align: 5px;
+}
+
+.connect_logo{
+    text-align: center;
+    display: inline;
+    vertical-align: -10px;
+    padding:10px;
+}
+
+.connect_logo a img{
+    padding: 5px;
+    padding-left: 15px;
+}

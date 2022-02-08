@@ -1,0 +1,227 @@
+.background_head{
+  width: 100%;
+  height: 100%;
+  background: black;
+  border-radius: 25px;
+  background-image: url('images/web-background.jpg');
+  object-fit: cover;
+}
+
+.side_tab {
+  position: fixed;
+  top: 0px;
+  background: #2664F5;
+  position: fixed;
+  width: 15%;
+  height: 96%;
+  left: 10px;
+  bottom: 10px;
+  top: 10px;
+  border-radius: 25px;
+}
+
+.border_tab{
+  width: 1350px;
+  height: 550px;
+  border: 10px solid lightgray;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 25px;
+  background: whitesmoke;
+  overflow: hidden;
+}
+
+.name{
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.img{
+  height: 120px;
+  width: 120px;
+  padding:10px;
+  display:inline-block;
+  vertical-align:top;
+  border-radius: 25px;
+  padding:10px;
+  object-fit: cover;
+}
+
+.img_align{
+  align-items: center;
+  text-align: center;
+}
+
+.dev{
+  text-align: center;
+  color: white;
+}
+
+.contact_info{
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+hr{
+  width: 80%;
+}
+
+.tech_head{
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.tech_logos{
+  padding: 20px;
+  align-items: center;
+  background: white;
+  word-spacing: 10px;
+  object-fit: cover;
+}
+
+.tech_text{
+  font-size: medium;
+  padding: 5px;
+  color: white;
+}
+
+.tech_text li {
+  padding: auto;
+  text-align: left;
+  text-decoration: none;
+  padding: 5px;
+
+}
+
+.resume{
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+.resume a{
+  text-align: center;
+  color: darkblue;
+  font-size: 14px;
+  text-decoration: none;
+  border: 3px solid whitesmoke;
+  border-radius: 25px;
+  padding: 2px;
+  background: white;
+}
+
+@media screen and (max-width: 800px) {
+  .side_tab {
+  background: #2664F5;
+  position: fixed;
+  width: 100%;
+  height: 45%;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  }
+
+  .img_align{
+    align-items: center;
+    text-align: center;
+  }
+
+  .img{
+    height: 130px;
+    width: 130px;
+    padding:10px;
+    display:inline-block;
+    vertical-align:top;
+    border-radius: 25px;
+    padding:10px;
+    object-fit: cover;
+  }
+
+  .name{
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+  }
+  
+  .dev{
+    text-align: center;
+    color: white;
+    padding:2px;
+    font-size: x-large;
+  }
+  
+  .contact_info{
+    text-align: center;
+    color: white;
+    padding: 8px;
+    font-size: large;
+  }
+  
+  hr{
+    width: 50%;
+  }
+  
+  .tech_logos{
+    display: none;
+  }
+  
+  .resume{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+  }
+  
+  .resume a{
+    text-align: center;
+    color: darkblue;
+    font-size: 15px;
+    text-decoration: none;
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+    padding: 5px;
+    background: white;
+  }
+
+  .border_tab{
+    width: 1300px;
+    height: 550px;
+    border: 10px solid lightgray;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    background: whitesmoke;
+    display: none;
+  }
+
+  .tech_head{
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    display: none;
+  }
+
+  .tech_text{
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    display: none;
+  }
+
+  hr{
+    display: none;
+  }
+  
+}

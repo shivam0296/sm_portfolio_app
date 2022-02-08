@@ -1,0 +1,55 @@
+.experience_box{
+    padding: 10px;
+    position: fixed;
+    top: 80px;
+    left:280px;
+    background: white;
+    box-shadow: 5px 10px 8px #888888;
+    width: 75%;
+    height: 75%;
+    overflow: scroll;
+  }
+
+  .experience_head{
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(to right, lightskyblue , white);
+    font-weight: bold;
+  }
+
+  .company_details{
+   background: linear-gradient(to right, yellow , white);
+   padding: 5px;
+  }
+
+  .company_team{
+   font-style: italic;
+   padding: 5px;
+   background: linear-gradient(to right, lightgray , white);
+  }
+
+  .company_work{
+   padding: 10px;
+  }
+
+  .company_work li{
+      list-style: none;
+      padding: 5px;
+      line-height: auto;
+  }
+
+  .diff_box{
+      padding:20x;
+  }
+
+  .job_date{
+      text-align: right;
+      display: inline;
+  }
+
+  .job_name{
+    text-align: left;
+    vertical-align: top;
+    display: inline;
+    padding: 5px;
+  }

@@ -1,0 +1,84 @@
+.a_box{
+    padding: 10px;
+    position: fixed;
+    top: 80px;
+    left:280px;
+    background: white;
+    box-shadow: 5px 10px 8px #888888;
+    width: 75%; 
+    height: 75%;
+    overflow: scroll;
+  }
+
+.a_head{
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(to right, lightskyblue , white); 
+  }
+
+.a_head_text{
+  text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    vertical-align: top;
+    display: inline;
+  }
+
+  .a_details{
+    background: linear-gradient(to right, yellow , white);
+    padding: 5px;
+   }
+ 
+   .a_org{
+    font-style: italic;
+    padding: 5px;
+    background: linear-gradient(to right, lightgray , white);
+   }
+ 
+.a_work{
+  padding: 10px;
+}
+
+.a_work li{
+  padding: 5px;
+}
+
+   .diff_box{
+    padding-top:20x;
+}
+
+.a_view{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    vertical-align: top;
+    display: inline;
+    display: none;
+  }
+  
+  .a_view a{
+    text-align: center;
+    color: darkblue;
+    font-size: 14px;
+    text-decoration: none;
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+    padding: 2px;
+    background: white;
+    font-weight: bold;
+  }
+
+  .certificates{
+    padding: 10px;
+    position: fixed;
+    top: 80px;
+    right: 55px;
+    background: white;
+    box-shadow: 5px 10px 8px #888888;
+    width: 25%;
+    height: 75%;
+    overflow: scroll;
+    display: none;
+  }

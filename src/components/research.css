@@ -1,0 +1,99 @@
+.research{
+  padding: 10px;
+  position: fixed;
+  top: 80px;
+  left:280px;
+  background: white;
+  box-shadow: 5px 10px 8px #888888;
+  width: 40%;
+  height: 8%;
+}
+
+.research_head{
+  padding: 5px;
+  text-align: center;
+  background: linear-gradient(to right, lightskyblue , white);
+  font-weight: bold;
+}
+
+.research_content{
+  padding: 5px;
+}
+
+.research_papers{
+  padding: 10px;
+  position: fixed;
+  top: 180px;
+  left:280px;
+  background: white;
+  box-shadow: 5px 10px 8px #888888;
+  width: 40%;
+  height: 60%;
+  overflow: scroll;
+}
+
+.research_head{
+  text-align: center;
+}
+
+.rpaper{
+  text-align: left;
+  padding-top: 10px;
+}
+
+.rtitle{
+  padding: 10px;
+  background: linear-gradient(to right, lightgray , white);
+}
+
+.publ{
+  text-decoration: none;
+  vertical-align: top;
+  display: inline;
+  padding: 10px;
+  font-size: small;
+}
+
+.paper_download{
+  text-decoration: none;
+  vertical-align: top;
+  display: inline;
+  padding: 10px;
+  font-size: small;
+}
+
+.other_research{
+  padding: 10px;
+  position: fixed;
+  top: 80px;
+  right:60px;
+  background: white;
+  box-shadow: 5px 10px 8px #888888;
+  width: 35%;
+  height: 74%;
+  overflow: scroll;
+}
+
+.or_head{
+  padding: 5px;
+  text-align: center;
+  background: linear-gradient(to right, lightskyblue , white);
+  font-weight: bold;
+}
+
+.project{
+  padding: 5px;
+}
+
+.ptitle{
+  background: linear-gradient(to right, yellow , white);
+  padding: 5px;
+}
+
+.pcontent{
+ padding: 5px;
+}
+
+.pcontent li{
+  padding: 5px;
+}
