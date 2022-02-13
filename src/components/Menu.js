@@ -6,13 +6,11 @@ import './menu.css'
 
 const Menu = () => {
   return <div className='tab'>
-    <div className='links'>
-    <Link to="/">Home</Link>
-    <Link to="research">Projects/Research</Link>
-		<Link to="experience">Experience</Link>
-    <Link to="achievements">Achievements</Link>
-    <Link to="pics">Hobbies</Link>
-    </div>
+    <li><Link to="/">Home</Link></li>
+    <li><Link to="research">Projects/Research</Link></li>
+		<li><Link to="experience">Experience</Link></li>
+    <li><Link to="achievements">Achievements</Link></li>
+    <li><Link to="hobbies">Hobbies</Link></li>
 </div>;
 };
 

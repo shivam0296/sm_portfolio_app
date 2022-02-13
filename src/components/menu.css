@@ -1,86 +1,88 @@
 .tab {
-  overflow: hidden;
-  background-color: #2664F5;
-  position: fixed;
-  top: 10px;
-  left:500px;
-  width: 40%;
+  background-color: #005A9C;
   font-family: Verdana;
-  transition: all 0.5s ease 0s;
   border-radius: 25px;
-  height: 5%;
   text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  width:50%;
+  height: 45px;
+  margin-left: 400px;
+  margin-top: 20px;
+  box-shadow: 5px 10px 8px #888888;
+  padding: 10px;
+  position: sticky; top: 5px;
+  font-family: arial;
 }
 
-.links {
-  text-decoration: none;
-  float: center;
-  padding-top: 5px;
-  position: relative;
+.tab li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
 }
 
-.links a {
-  display: block;
+.tab a {
+  display: inline-block;
   color: white;
   text-align: center;
-  padding: 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
+  margin-top: 20px;
   display: inline;
   transition: all 0.2s linear;
-  flex: 1;
+  border-radius: 20px;
+  padding: 20px;
 }
 
-.links a:hover:not(.active) {
-  background-color: darkblue;
+.tab a:hover:not(.active) {
+  background-color: white;
+  color: #005A9C;
+  font-weight: bold;
 }
 
-.links a:focus{
-  background-color: darkblue;
+.tab a:focus{
+  background-color: white;
+  color: #005A9C;
+  font-weight: bold;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: darkblue;
 }
 
 @media screen and (max-width: 800px) {
   .tab {
-    overflow: hidden;
-    background-color: grey;
-    position: fixed;
-    top: 335px;
-    left:0px;
-    width: 100%;
+    background-color: #005A9C;
     font-family: Verdana;
-    transition: all 0.5s ease 0s;
-    border-radius: 0px;
-    height: 5%;
+    border-radius: 25px;
     text-align: center;
-    display: none;
+    vertical-align: top;
+    display: inline-block;
+    width:550px;
+    height: 45px;
+    margin-left: 0px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 8px #888888;
+    padding: 5px;
+  }
+
+  .tab li{
+    list-style: none;
+    display: inline-block;
+    padding: 2px;
   }
   
-  .links {
-    text-decoration: none;
-    float: center;
-    padding-top: 6px;
-    position: relative;
-  }
-  
-  .links a {
-    display: block;
+  .tab a {
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 5px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
+    margin-top: 20px;
     display: inline;
+    transition: all 0.2s linear;
+    border-radius: 20px;
+    padding: 15px;
   }
-  
-  .links a:hover:not(.active) {
-    background-color: darkblue;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
+
 }

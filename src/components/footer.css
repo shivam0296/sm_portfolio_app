@@ -1,35 +1,31 @@
 .bottom_tab{
-    overflow: hidden;
-    background-color: #2664F5;
-    position: fixed;
-    bottom: 10px;
-    left:500px;
-    width: 40%;
-    transition: all 0.5s ease 0s;
+    background-color: #005A9C;
+    margin-left:400px;
+    margin-top: 20px;
+    width: auto;
     border-radius: 25px;
-    height: 5%;
+    width: 50%;
     text-align: center;
-    
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .footer_text{
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     font-family: Verdana;
     color: white;
-    display: inline;
-    font-size: small;
-    vertical-align: 5px;
 }
 
-.connect_logo{
-    text-align: center;
-    display: inline;
-    vertical-align: -10px;
-    padding:10px;
-}
+@media screen and (max-width: 800px) {
 
-.connect_logo a img{
-    padding: 5px;
-    padding-left: 15px;
+    .bottom_tab{
+        background-color: #005A9C;
+        margin-left:0px;
+        margin-top: 20px;
+        width: auto;
+        border-radius: 25px;
+        width: 550px;
+        text-align: center;
+    }  
+
 }

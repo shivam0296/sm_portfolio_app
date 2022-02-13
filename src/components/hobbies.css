@@ -1,0 +1,47 @@
+.h_box{
+    background: white;
+    box-shadow: 5px 10px 8px #888888;
+    width: 50%; 
+    height: auto;
+    margin-top: 20px;
+    margin-left: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: arial;
+  }
+
+  .h_header{
+    text-align: left;
+    padding: 10px;
+    background: linear-gradient(to right, lightskyblue , white);
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+
+  .h_content{
+    padding: 20px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #F0F8FF , white);
+    color: #005A9C;
+    margin-top: 5px;
+  }
+
+  .h_content li{
+      line-height: 30px;
+      padding: 5px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .h_box{
+      background: white;
+      box-shadow: 5px 10px 8px #888888;
+      width: 550px; 
+      height: auto;
+      margin-top: 20px;
+      margin-left: 0px;
+      padding: 10px;
+      border-radius: 25px;
+      font-style: arial;
+    }
+    
+  }

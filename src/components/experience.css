@@ -1,55 +1,75 @@
-.experience_box{
-    padding: 10px;
-    position: fixed;
-    top: 80px;
-    left:280px;
+.exp_box{
+  background: white;
+  box-shadow: 5px 10px 8px #888888;
+  width: 50%; 
+  height: auto;
+  margin-top: 20px;
+  margin-left: 400px;
+  padding: 10px;
+  border-radius: 25px;
+  font-style: arial;
+}
+
+.exp_header{
+  text-align: left;
+  padding: 5px;
+  background: linear-gradient(to right, lightskyblue , white);
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.exp_sub_header{
+  text-align: left;
+  padding: 10px;
+  background: linear-gradient(to right, lightgray , white);
+  border-radius: 25px;
+  margin-top: 5px;
+}
+
+.exp_content{
+  padding: 20px;
+  border-radius: 25px;
+  background: linear-gradient(to right, #F0F8FF , white);
+  color: #005A9C;
+}
+
+.exp_content li{
+  list-style: none;
+  line-height: 30px;
+}
+
+.exp_head{
+  padding: 10px;
+  background: linear-gradient(to right, #005A9C , white);
+  margin-bottom: 10px;
+  border-radius: 25px;
+  color: white;
+}
+
+.job_name{
+  padding: 5px;
+  vertical-align: top;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.job_date{
+  padding: 5px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+  .exp_box{
     background: white;
     box-shadow: 5px 10px 8px #888888;
-    width: 75%;
-    height: 75%;
-    overflow: scroll;
+    width: 550px; 
+    height: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 10px;
+    border-radius: 25px;
+    font-style: arial;
   }
-
-  .experience_head{
-    text-align: center;
-    padding: 5px;
-    background: linear-gradient(to right, lightskyblue , white);
-    font-weight: bold;
-  }
-
-  .company_details{
-   background: linear-gradient(to right, yellow , white);
-   padding: 5px;
-  }
-
-  .company_team{
-   font-style: italic;
-   padding: 5px;
-   background: linear-gradient(to right, lightgray , white);
-  }
-
-  .company_work{
-   padding: 10px;
-  }
-
-  .company_work li{
-      list-style: none;
-      padding: 5px;
-      line-height: auto;
-  }
-
-  .diff_box{
-      padding:20x;
-  }
-
-  .job_date{
-      text-align: right;
-      display: inline;
-  }
-
-  .job_name{
-    text-align: left;
-    vertical-align: top;
-    display: inline;
-    padding: 5px;
-  }
+  
+}

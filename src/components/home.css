@@ -1,89 +1,44 @@
-.intro_box{
-  padding: 10px;
-  position: fixed;
-  top: 80px;
-  left:280px;
+.home_box{
   background: white;
   box-shadow: 5px 10px 8px #888888;
-  width: 30%;
-  height: 40%;
+  width: 50%; 
+  height: auto;
+  margin-top: 20px;
+  margin-left: 400px;
+  padding: 10px;
+  border-radius: 25px;
+  font-style: arial;
 }
 
-.intro_head{
+.home_header{
   text-align: center;
-  padding: 5px;
-  background: linear-gradient(to right, lightskyblue , white);
+  padding: 10px;
+  background: linear-gradient(to right, lightgray , white);
   font-weight: bold;
+  border-radius: 25px;
+  margin-top: 10px;
 }
 
-.intro_text{
-  text-align: left;
-  padding: 10px;
+.home_content{
+  padding: 20px;
+  border-radius: 25px;
+  line-height: 30px;
+  background: linear-gradient(to right, #F0F8FF , white);
+  margin-top: 5px;
+  color: #005A9C;
 }
 
-.edu_box{
-  padding: 10px;
-  position: fixed;
-  top: 400px;
-  left:280px;
-  background: white;
-  box-shadow: 5px 10px 8px #888888;
-  width: 30%;
-  height: 30%;
-}
-
-.edu_head{
-  text-align: center;
-  padding: 5px;
-  background: linear-gradient(to right, lightskyblue , white);
-  font-weight: bold;
-}
-
-.edu_content{
-  padding:10px;
-}
-
-.project_box{
-  padding: 10px;
-  position: fixed;
-  top: 80px;
-  right:420px;
-  background: white;
-  box-shadow: 5px 10px 8px #888888;
-  width: 20%;
-  height: 75%;
-}
-
-.project_head{
-  padding: 5px;
-  text-align: center;
-  background: linear-gradient(to right, lightskyblue , white);
-  font-weight: bold;
-}
-
-.project_content{
-  padding:5px;
-}
-
-.project_content li {
-  padding: 5px;
-}
-
-.tech_box{
-  padding: 10px;
-  position: fixed;
-  top: 80px;
-  right:70px;
-  background: white;
-  box-shadow: 5px 10px 8px #888888;
-  width: 20%;
-  height: 75%;
-}
-
-
-@media screen and (max-width: 800px) {
-  .intro_box, .main.edu_box, .project_box {
-    width: 10%; /* The width is 100%, when the viewport is 800px or smaller */
-    height: 5%;
+@media screen and (max-width: 600px) {
+  .home_box{
+    background: white;
+    box-shadow: 5px 10px 8px #888888;
+    width: 550px; 
+    height: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 10px;
+    border-radius: 25px;
+    font-style: arial;
   }
+  
 }
