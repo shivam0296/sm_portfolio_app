@@ -13,7 +13,7 @@ const Hobbies = () => {
     <div className='h_header'>Cooking</div>
     <div className='h_content'>I love cooking in my free time. I like to invent new dishes.</div>
     <div className='h_header'>Playing Football</div>
-    <div className='h_content'>I'm playing football since my 6th standard. I was in my school's and college's football team.</div>
+    <div className='h_content'>I'm playing football since my 6th grade. I was in my school's and college's football team.</div>
     <div className='h_header'>Travelling</div>
     <div className='h_content'>I like to visit new places and experience new cultures and cuisines.</div>
   </div>;

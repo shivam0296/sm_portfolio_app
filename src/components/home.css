@@ -28,7 +28,7 @@
   color: #005A9C;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .home_box{
     background: white;
     box-shadow: 5px 10px 8px #888888;

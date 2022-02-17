@@ -16,8 +16,8 @@ const Home = () => {
       <div className='home_header'>Latest Projects and Updates</div>
       <div className='home_content'>
         <li>Have applied for masters program in computer Science</li>
-        <li>Submitted research paper in ETJRI Publication</li>
-        <li>Started working as a Software Developer</li>
+        <li>Submitted research paper in ETJRI Publication: <br/>A Machine Learning Assisted Optical Multistage Interconnection Network: 
+        Performance Analysis and Hardware Demonstration</li>
       </div>
       <div className='home_header'>Latest in Tech</div>
       <div className='home_content'>Coming Soon</div>

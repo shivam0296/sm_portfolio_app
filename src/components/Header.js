@@ -11,7 +11,6 @@ export const Header = () => {
      <div className='name'>Shivam Mishra</div>
      <div className='dev'>Software Developer</div>
      <div className='contact_info'>shivam4dev@gmail.com</div>
-     <div className='contact_info'>+91 7338801060</div>
      <div className='resume'><a href={resume} target='_blank' rel="noreferrer">Resume</a></div>
     </div>
     <div className='middle_tab1'>
