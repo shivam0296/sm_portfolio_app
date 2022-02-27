@@ -1,36 +1,37 @@
 .exp_box{
-  background: white;
-  box-shadow: 5px 10px 8px #888888;
-  width: 50%; 
+  width: 100%;
   height: auto;
-  margin-top: 20px;
-  margin-left: 400px;
-  padding: 10px;
-  border-radius: 25px;
+  margin-top: 15px;
   font-style: arial;
+  display: inline-block;
+  vertical-align: top;
+  background: #ebe4e4;
+  text-align: left;
+  box-shadow: 10px 10px 8px #888888;
+  border-radius: 25px;
+  padding: 5px;
 }
 
 .exp_header{
   text-align: left;
   padding: 5px;
-  background: linear-gradient(to right, lightskyblue , white);
   border-radius: 25px;
   margin-top: 10px;
+  background: linear-gradient(to right, #F0F8FF , #ebe4e4);
 }
 
 .exp_sub_header{
   text-align: left;
   padding: 10px;
-  background: linear-gradient(to right, lightgray , white);
   border-radius: 25px;
   margin-top: 5px;
+  font-style: italic;
+  color: darkblue;
 }
 
 .exp_content{
   padding: 20px;
   border-radius: 25px;
-  background: linear-gradient(to right, #F0F8FF , white);
-  color: #005A9C;
 }
 
 .exp_content li{
@@ -40,10 +41,10 @@
 
 .exp_head{
   padding: 10px;
-  background: linear-gradient(to right, #005A9C , white);
   margin-bottom: 10px;
   border-radius: 25px;
-  color: white;
+  text-align: center;
+  font-weight: bold;
 }
 
 .job_name{
@@ -59,17 +60,19 @@
   display: inline-block;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .exp_box{
-    background: white;
-    box-shadow: 5px 10px 8px #888888;
-    width: 550px; 
+    width: 500px;
     height: auto;
-    margin-top: 20px;
-    margin-left: 0px;
-    padding: 10px;
-    border-radius: 25px;
+    margin-top: 15px;
     font-style: arial;
+    display: inline-block;
+    vertical-align: top;
+    background: #ebe4e4;
+    text-align: left;
+    box-shadow: 10px 10px 8px #888888;
+    border-radius: 25px;
+    padding: 5px;
   }
   
 }

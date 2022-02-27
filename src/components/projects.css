@@ -1,0 +1,45 @@
+.pro_box{
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  font-style: arial;
+  display: inline-block;
+  vertical-align: top;
+  background: #ebe4e4;
+  text-align: center;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.project_head{
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 25px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.project_content{
+  padding: 10px;
+  text-align: left;
+}
+
+.project_content li{
+  line-height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .pro_box{
+    width: 500px;
+    height: auto;
+    margin-top: 15px;
+    font-style: arial;
+    display: inline-block;
+    vertical-align: top;
+    background: #ebe4e4;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+  }
+  
+}

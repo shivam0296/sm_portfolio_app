@@ -1,29 +1,27 @@
 .tab {
   background-color: #005A9C;
-  font-family: Verdana;
-  border-radius: 25px;
-  text-align: center;
+  text-align: left;
   vertical-align: top;
   display: inline-block;
-  width:50%;
-  height: 45px;
-  margin-left: 400px;
-  margin-top: 20px;
-  box-shadow: 5px 10px 8px #888888;
+  width:100%;
+  margin-top: 15px;
   padding: 10px;
   position: sticky; top: 5px;
   font-family: arial;
+  background: #b8c8cc;
+  border-radius: 25px;
+  box-shadow: 10px 10px 8px #888888;
 }
 
 .tab li{
   list-style: none;
-  display: inline-block;
   padding: 5px;
+  word-spacing: 20px;
+  display: inline-block;
 }
 
 .tab a {
-  display: inline-block;
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
   font-size: 15px;
@@ -31,18 +29,20 @@
   display: inline;
   transition: all 0.2s linear;
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
+  width: max-content;
+  font-weight: bold;
 }
 
 .tab a:hover:not(.active) {
-  background-color: white;
-  color: #005A9C;
+  background-color: lightgray;
+  color: black;
   font-weight: bold;
 }
 
 .tab a:focus{
-  background-color: white;
-  color: #005A9C;
+  background-color: lightgrey;
+  color: black;
   font-weight: bold;
 }
 
@@ -50,43 +50,44 @@
   background-color: darkblue;
 }
 
-@media screen and (max-width: 800px) {
+.sidepanel {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
   .tab {
     background-color: #005A9C;
-    font-family: Verdana;
-    border-radius: 25px;
-    text-align: center;
+    text-align: left;
     vertical-align: top;
     display: inline-block;
-    width:550px;
-    height: 50px;
-    margin-left: 0px;
-    margin-top: 20px;
-    box-shadow: 5px 10px 8px #888888;
+    width:500px;
+    margin-top: 15px;
+    padding: 10px;
+    position: sticky; top: 5px;
+    font-family: arial;
+    background: #b8c8cc;
+    border-radius: 25px;
+    box-shadow: 10px 10px 8px #888888;
   }
 
   .tab li{
     list-style: none;
+    padding: 2px;
+    word-spacing: 10px;
     display: inline-block;
-    padding: 0px;
   }
-  
+
   .tab a {
-    display: inline-block;
-    color: white;
-    text-align: left;
+    color: black;
+    text-align: center;
     text-decoration: none;
-    font-size: 18px;
-    margin-top: 30px;
+    font-size: 15px;
+    margin-top: 20px;
     display: inline;
     transition: all 0.2s linear;
     border-radius: 20px;
-    padding: 6px;
-  }
-
-  .tab a:focus{
-    background-color: white;
-    color: #005A9C;
+    padding: 3px;
+    width: max-content;
     font-weight: bold;
   }
 

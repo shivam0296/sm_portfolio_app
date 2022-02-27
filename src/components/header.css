@@ -1,93 +1,69 @@
+.side_tab {
+  width: 100%;
+  margin-left: 0px;
+  text-align: left;
+  vertical-align: top;
+  display: inline-block;
+  background: #a5c7e4;
+  border-radius: 25px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
 .left_tab{
   vertical-align: top;
   display: inline-block;
-  width: 40%;
-  padding: 10px;
+  padding: 15px;
+  text-align: left;
+  width: 90%;
 }
 
-.right_tab{
-  margin-top: 35px;
+.connect{
+  margin-top: 10px;
   vertical-align: top;
   display: inline-block;
+  padding: 10px;
+  text-align: right;
   width: 10%;
-  padding: 10px;
-  background: linear-gradient(#F0F8FF, white);
-  text-align: center;
 }
 
-.right_tab li{
+.connect li{
   list-style: none;
-  line-height: 40px;
-}
-
-.middle_tab1{
-  margin-top: 20px;
-  vertical-align: top;
-  display: inline-block;
-  width: 20%;
-  padding: 10px;
-  background: linear-gradient(#F0F8FF, white);
-  border-radius: 25px;
-  text-align: center;
-}
-
-.middle_tab1 li{
-  list-style: none;
-}
-
-.middle_tab2{
-  margin-top: 20px;
-  vertical-align: top;
-  display: inline-block;
-  width: 30%;
-  padding: 10px;
-}
-
-.side_tab {
-  background: #005A9C;
-  width: 50%;
-  height: 10%;
-  border-radius: 25px;
-  margin-left: 400px;
-  box-shadow: 5px 10px 8px #888888;
+  line-height: 30px;
 }
 
 .name{
   padding: 5px;
-  text-align: center;
-  color: white;
+  color: black;
   font-size: 25px;
   font-family: arial;
   font-weight: bold;
 }
 
 .img{
-  height: 150px;
+  height: 160px;
   width: 150px;
-  padding:10px;
+  padding:5px;
   display:inline-block;
   vertical-align:top;
   border-radius: 25px;
-  padding:10px;
   object-fit: cover;
-}
-
-.img_align{
-  align-items: center;
-  text-align: center;
+  border: 5px solid grey;
 }
 
 .dev{
-  text-align: center;
-  color: white;
+  color: black;
   font-family: arial;
   font-size: 18px;
+  padding: 5px;
+}
+
+i {
+  padding: 5px;
 }
 
 .contact_info{
-  text-align: center;
-  color: white;
-  padding-top: 10px;
+  color: black;
+  padding: 7px;
   font-size: 16px;
   font-family: arial;
 }
@@ -124,9 +100,8 @@
 }
 
 .resume{
-  text-align: center;
   color: white;
-  padding-top: 11px;
+  padding-top: 10px;
   font-size: 22px;
   border-radius: 30px;
   font-family: arial;
@@ -137,7 +112,7 @@
   color: #005A9C;
   font-size: 14px;
   text-decoration: none;
-  border: 1px solid grey;
+  border: 2px solid grey;
   border-radius: 25px;
   padding: 5px;
   background: white;
@@ -145,94 +120,23 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 800px) {
+.information{
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 600px) {
   .side_tab {
-    background: #005A9C;
-    width: 550px;
-    border-radius: 25px;
+    width: 500px;
     margin-left: 0px;
-    box-shadow: 5px 10px 8px #888888;
-    font-family: arial;
-  }
-
-  .img{
-    height: 180px;
-    width: 180px;
-    padding:10px;
-    display:inline-block;
-    vertical-align:top;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    background: #a5c7e4;
     border-radius: 25px;
-    padding:10px;
-    object-fit: cover;
-  }
-
-  .left_tab{
-    vertical-align: top;
-    display: inline-block;
-    width: 38%;
-    padding: 10px;
-    font-family: arial;
-  }
-
-  .middle_tab1{
-    margin-top: 20px;
-    margin-left: 10px;
-    vertical-align: top;
-    display: inline-block;
-    width: 24%;
-    padding: 10px;
-    background: white;
-    border-radius: 25px;
-    text-align: center;
-    font-family: arial;
-    background: linear-gradient(#F0F8FF, white);
-  }
-
-  .name{
-    padding: 5px;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    font-family: arial;
-    font-weight: bold;
-  }
-
-  .contact_info{
-    text-align: center;
-    color: white;
-    padding-top: 10px;
-    font-size: 18px;
-    font-family: arial;
-  }
-
-  .dev{
-    text-align: center;
-    color: white;
-    font-family: arial;
-    font-size: 21px;
-  }
-
-  .middle_tab2{
-    margin-top: 5px;
-    margin-left: 0px;
-    vertical-align: top;
-    display: inline-block;
-    width: 28%;
-    padding: 10px;
-  }
-  
-  .right_tab{
-    margin-top: 35px;
-    vertical-align: top;
-    display: inline-block;
-    width: 8%;
-    padding: 10px;
-    background: linear-gradient(#F0F8FF, white);
-    text-align: center;
-  }
-
-  .right_tab li{
-    list-style: none;
-    line-height: 60px;
+    box-shadow: 10px 10px 8px #888888;
   }
 }

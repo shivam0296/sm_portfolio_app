@@ -4,8 +4,9 @@
 
 body {
   font-family: Arial;
-  padding: 10px;
-  background: #f1f1f1;
+  background: white;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 @media screen and (max-width: 800px) {

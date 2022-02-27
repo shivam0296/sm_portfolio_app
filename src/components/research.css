@@ -1,29 +1,29 @@
 .research_box{
-  background: white;
-  box-shadow: 5px 10px 8px #888888;
-  width: 50%; 
+  width: 100%;
   height: auto;
-  margin-top: 20px;
-  margin-left: 400px;
-  padding: 10px;
+  margin-top: 15px;
+  font-style: arial;
+  display: inline-block;
+  vertical-align: top;
+  background: #ebe4e4;
+  text-align: center;
   border-radius: 25px;
-  font-family: arial;
 }
 
 .re_header{
   text-align: left;
   padding: 10px;
-  background: linear-gradient(to right, lightskyblue , white);
   border-radius: 25px;
   margin-top: 20px;
+  background: linear-gradient(to right, #F0F8FF , #ebe4e4);
 }
 
 .re_sub_header{
   text-align: left;
   padding: 10px;
-  background: linear-gradient(to right, #F0F8FF , white);
   border-radius: 25px;
   margin-top: 0px;
+  font-style: italic;
 }
 
 .re_pub{
@@ -31,31 +31,11 @@
   border-radius: 25px;
 }
 
-.pro_head{
-  padding: 10px;
-  background: linear-gradient(to right, #005A9C , white);
-  margin-bottom: 10px;
-  border-radius: 25px;
-  margin-top: 25px;
-  color: white;
-}
-
-.pro_content{
-  padding: 10px;
-  background: linear-gradient(#F0F8FF, white);
-  color: #005A9C;
-}
-
-.pro_content li{
-  line-height: 30px;
-}
-
 .re_head{
   padding: 10px;
-  background: linear-gradient(to right, #005A9C , white);
   margin-bottom: 10px;
-  border-radius: 25px;
-  color: white;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .pub_name{
@@ -69,6 +49,7 @@
   padding: 5px;
   vertical-align: top;
   display: inline-block;
+  margin-bottom: 10px;
 }
 
 .pub_date{
@@ -76,19 +57,32 @@
   vertical-align: top;
   display: inline-block;
   color: rgb(54, 53, 53);
+  margin-bottom: 15px;
 }
 
-@media screen and (max-width: 800px) {
+.imgp{
+  height: 150px;
+  width: 120px;
+  padding:5px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.prof{
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
   .research_box{
-    background: white;
-    box-shadow: 5px 10px 8px #888888;
-    width: 550px; 
+    width: 500px;
     height: auto;
-    margin-top: 20px;
-    margin-left: 0px;
-    padding: 10px;
+    margin-top: 15px;
+    font-style: arial;
+    display: inline-block;
+    vertical-align: top;
+    background: #ebe4e4;
+    text-align: center;
     border-radius: 25px;
-    font-family: arial;
   }
   
 }

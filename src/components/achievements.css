@@ -1,19 +1,21 @@
 .a_box{
-  background: white;
+  background: #ebe4e4;;
   box-shadow: 5px 10px 8px #888888;
-  width: 50%; 
+  width: 100%; 
   height: auto;
-  margin-top: 20px;
-  margin-left: 400px;
+  margin-top: 15px;
+  margin-left: 0px;
   padding: 10px;
   border-radius: 25px;
   font-family: arial;
+  vertical-align: top;
+  display: inline-block;
 }
 
 .a_header{
   text-align: left;
   padding: 10px;
-  background: linear-gradient(to right, lightskyblue , white);
+  background: linear-gradient(to right, #F0F8FF , #ebe4e4);
   border-radius: 25px;
   margin-top: 20px;
 }
@@ -21,15 +23,14 @@
 .a_sub_header{
   text-align: left;
   padding: 10px;
-  background: linear-gradient(to right, lightgray , white);
   border-radius: 25px;
   margin-top: 0px;
+  font-style: italic;
+  color: darkblue;
 }
 
 .a_content{
   padding: 10px;
-  background: linear-gradient(to right, #F0F8FF , white);
-  color: #005A9C;
 }
 
 .a_content li{
@@ -37,17 +38,19 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .a_box{
-    background: white;
+    background: #ebe4e4;;
     box-shadow: 5px 10px 8px #888888;
-    width: 550px; 
+    width: 500px; 
     height: auto;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 0px;
     padding: 10px;
     border-radius: 25px;
     font-family: arial;
+    vertical-align: top;
+    display: inline-block;
   }
   
 }

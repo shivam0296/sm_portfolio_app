@@ -1,9 +1,9 @@
 import React from 'react';
-import { Header } from './Header';
+import './blogs.css'
 
 const Blogs = () => {
-  return <div>
-      <Header/>
+  return <div className='b_box'>
+      Coming Soon
   </div>;
 };
 

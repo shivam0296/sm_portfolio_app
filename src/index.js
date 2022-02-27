@@ -11,6 +11,8 @@ import './index.css'
 import {Header} from './components/Header'
 import Menu from './components/Menu'
 import Footer from './components/Footer';
+import Blogs from './components/Blogs';
+import Projects from './components/Projects';
 
 
   ReactDOM.render(
@@ -23,6 +25,8 @@ import Footer from './components/Footer';
     <Route path="/experience" element={<Experience/>} />
     <Route path="/achievements" element={<Achievements/>} /> 
     <Route path="/hobbies" element={<Hobbies/>} />
+    <Route path="/blogs" element={<Blogs/>} />
+    <Route path="/projects" element={<Projects/>} />
     </Routes>
   <Footer/>
   </BrowserRouter>
