@@ -18,8 +18,8 @@ export const Header = () => {
       <div className='connect'>
        <li><a href={'https://www.linkedin.com/in/shivam-mishra-a39820160/'} target={'_blank'} rel="noreferrer"><img src="https://img.icons8.com/ios-filled/30/000000/linkedin.png" alt='linkedin'/></a></li>
        <li><a href={'/'} target={'_blank'} rel="noreferrer"><img src="https://img.icons8.com/fluency-systems-filled/30/000000/twitter.png" alt='twitter'/></a></li>
-       <li><a href={'/'} target={'_blank'} rel="noreferrer"><img src={"https://img.icons8.com/fluency-systems-filled/30/000000/instagram-new.png"} alt='instagram'/></a></li>
-       <li><a href={'/'} target={'_blank'} rel="noreferrer"><img src={"https://img.icons8.com/material/30/000000/facebook-new.png"} alt='fb'/></a></li>
+       <li><a href={'https://www.instagram.com/shivam.m_7/'} target={'_blank'} rel="noreferrer"><img src={"https://img.icons8.com/fluency-systems-filled/30/000000/instagram-new.png"} alt='instagram'/></a></li>
+       <li><a href={'https://www.facebook.com/profile.php?id=100070016875469'} target={'_blank'} rel="noreferrer"><img src={"https://img.icons8.com/material/30/000000/facebook-new.png"} alt='fb'/></a></li>
       </div>
   </div>;
 };
