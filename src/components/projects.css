@@ -5,7 +5,7 @@
   font-style: arial;
   display: inline-block;
   vertical-align: top;
-  background: #ebe4e4;
+  background: white;
   text-align: center;
   border-radius: 25px;
   padding: 10px;
@@ -21,7 +21,7 @@
 }
 
 .project_content{
-  padding: 10px;
+  padding: 15px;
   text-align: left;
 }
 
@@ -37,7 +37,7 @@
     font-style: arial;
     display: inline-block;
     vertical-align: top;
-    background: #ebe4e4;
+    background: white;
     text-align: center;
     border-radius: 25px;
     padding: 10px;

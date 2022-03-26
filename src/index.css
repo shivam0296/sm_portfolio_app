@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial;
-  background: white;
+  background: rgb(201, 202, 195);
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -14,7 +14,7 @@ body {
   body {
     font-family: Arial;
     padding: 0px;
-    background: white;
+    background: rgb(201, 202, 195);
   }
  
 }

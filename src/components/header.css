@@ -4,8 +4,11 @@
   text-align: left;
   vertical-align: top;
   display: inline-block;
-  background: #a5c7e4;
+  color: white;
   border-radius: 25px;
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #000428, #004e92, white);
+  background: linear-gradient(to right, #000428, #004e92,white);
   box-shadow: 10px 10px 8px #888888;
 }
 
@@ -33,7 +36,6 @@
 
 .name{
   padding: 5px;
-  color: black;
   font-size: 25px;
   font-family: arial;
   font-weight: bold;
@@ -51,7 +53,6 @@
 }
 
 .dev{
-  color: black;
   font-family: arial;
   font-size: 18px;
   padding: 5px;
@@ -62,7 +63,6 @@ i {
 }
 
 .contact_info{
-  color: black;
   padding: 7px;
   font-size: 16px;
   font-family: arial;
@@ -135,8 +135,10 @@ i {
     text-align: center;
     vertical-align: top;
     display: inline-block;
-    background: #a5c7e4;
     border-radius: 25px;
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #000428, #004e92, white);
+    background: linear-gradient(to right, #000428, #004e92,white);
     box-shadow: 10px 10px 8px #888888;
   }
 }

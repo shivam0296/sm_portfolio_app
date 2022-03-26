@@ -1,5 +1,5 @@
 .h_box{
-  background: #ebe4e4;
+  background: white;
   box-shadow: 10px 10px 8px #888888;
   width: 100%; 
   height: auto;
@@ -15,7 +15,7 @@
   .h_header{
     text-align: left;
     padding: 10px;
-    background: linear-gradient(to right, #F0F8FF , #ebe4e4);
+    background: linear-gradient(to right, #c0dffa , white);
     border-radius: 25px;
     margin-top: 10px;
   }
@@ -33,7 +33,7 @@
 
   @media screen and (max-width: 600px) {
     .h_box{
-      background: #ebe4e4;
+      background: white;
       box-shadow: 5px 10px 8px #888888;
       width: 500px; 
       height: auto;

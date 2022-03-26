@@ -4,8 +4,10 @@
     width: auto;
     width: 100%;
     text-align: center;
-    color: black;
-    background: #a5c7e4;
+    color: white;
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #000428, #004e92);
+    background: linear-gradient(to right, #000428, #004e92);
     border-radius: 25px;
     box-shadow: 10px 10px 8px #888888;
 }
@@ -26,8 +28,10 @@
         width: auto;
         width: 500px;
         text-align: center;
-        color: black;
-        background: #a5c7e4;
+        color: white;
+        background: #000428;
+        background: -webkit-linear-gradient(to right, #000428, #004e92);
+        background: linear-gradient(to right, #000428, #004e92);
         border-radius: 25px;
         box-shadow: 10px 10px 8px #888888;
     }

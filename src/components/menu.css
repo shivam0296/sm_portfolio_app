@@ -8,7 +8,9 @@
   padding: 10px;
   position: sticky; top: 5px;
   font-family: arial;
-  background: #b8c8cc;
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #000428, #004e92);
+  background: linear-gradient(to right, #000428, #004e92);
   border-radius: 25px;
   box-shadow: 10px 10px 8px #888888;
 }
@@ -21,7 +23,7 @@
 }
 
 .tab a {
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
   font-size: 15px;
@@ -56,7 +58,6 @@
 
 @media screen and (max-width: 600px) {
   .tab {
-    background-color: #005A9C;
     text-align: left;
     vertical-align: top;
     display: inline-block;
@@ -65,7 +66,9 @@
     padding: 10px;
     position: sticky; top: 5px;
     font-family: arial;
-    background: #b8c8cc;
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #000428, #004e92);
+    background: linear-gradient(to right, #000428, #004e92);
     border-radius: 25px;
     box-shadow: 10px 10px 8px #888888;
   }
@@ -78,7 +81,7 @@
   }
 
   .tab a {
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
     font-size: 15px;

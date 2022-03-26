@@ -5,10 +5,11 @@
   font-style: arial;
   display: inline-block;
   vertical-align: top;
-  background: #ebe4e4;
+  background: white;
   text-align: center;
   box-shadow: 10px 10px 8px #888888;
   border-radius: 25px;
+  color:rgb(5, 19, 44);
 }
 
 .home_left{
@@ -51,7 +52,7 @@
     font-style: arial;
     display: inline-block;
     vertical-align: top;
-    background: #ebe4e4;
+    background: white;
     text-align: center;
     box-shadow: 10px 10px 8px #888888;
     border-radius: 25px;

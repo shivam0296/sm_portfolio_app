@@ -5,7 +5,7 @@
   font-style: arial;
   display: inline-block;
   vertical-align: top;
-  background: #ebe4e4;
+  background: white;
   text-align: left;
   box-shadow: 10px 10px 8px #888888;
   border-radius: 25px;
@@ -17,7 +17,7 @@
   padding: 5px;
   border-radius: 25px;
   margin-top: 10px;
-  background: linear-gradient(to right, #F0F8FF , #ebe4e4);
+  background: linear-gradient(to right, rgb(163, 213, 245) , white);
 }
 
 .exp_sub_header{
@@ -68,7 +68,7 @@
     font-style: arial;
     display: inline-block;
     vertical-align: top;
-    background: #ebe4e4;
+    background: white;
     text-align: left;
     box-shadow: 10px 10px 8px #888888;
     border-radius: 25px;
