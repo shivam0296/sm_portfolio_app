@@ -42,6 +42,55 @@
 .home_content{
   padding: 15px;
   line-height: 25px;
+  text-align: left;
+}
+
+.education_content{
+  padding: 15px;
+  line-height: 25px;
+  text-align: left;
+  border: 2px solid lightblue;
+  border-radius: 25px;
+}
+
+.home_content_logos{
+  padding: 15px;
+  margin-top: 10px;
+  margin-right: 20px;
+  line-height: 25px;
+  text-align: center;
+  border: 2px solid lightblue;
+  border-radius: 25px;
+}
+
+.home_content_interest{
+  padding: 15px;
+  line-height: 25px;
+  text-align: center;
+  border: 2px solid lightblue;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.intro {
+  text-align: left;
+  padding: 15px;
+  line-height: 25px;
+  border: 2px solid lightblue;
+  border-radius: 25px;
+}
+
+.intro_content {
+  text-align: left;
+  margin-top: 20px;
+  padding: 15px;
+  line-height: 40px;
+  border: 2px solid lightblue;
+  border-radius: 25px;
+}
+
+.skills {
+  padding: 15px;
 }
 
 @media screen and (max-width: 600px) {

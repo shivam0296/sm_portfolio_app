@@ -4,15 +4,15 @@ import './experience.css'
 
 const Experience = () => {
   return <div className='exp_box'>
-    <div className='exp_head'>Professional Experience [ 2+ Years]</div>
-    <div className='exp_header'><div className='job_name'>Ericsson</div> <div className='job_date'>Jun 2021 to Present</div></div>
+    <div className='exp_head'>Professional Experience [ 3+ Years]</div>
+    <div className='exp_header'><div className='job_name'>Ericsson</div> <div className='job_date'>Jun 2021 to Aug 2022</div></div>
     <div className='exp_sub_header'> Developer - Cloud Container Distribution</div>
     <div className='exp_content'>
-        <li>- Managing and orchestrating all containerized applications deployed in Ericsson products using Kubernetes, Helm, and open stack heat deployments.</li>
-        <li>- Handling Splunk Data for a platform for analyzing and managing data related to a project using open-source tools
+        <li>- Managed and orchestrating all containerized applications deployed in Ericsson products using Kubernetes, Helm, and open stack heat deployments.</li>
+        <li>- Handled Splunk Data for a platform for analyzing and managing data related to a project using open-source tools
               such as Kube state metrics and Node Exporter and adding efficient Python code for various analytics.</li>
-        <li>- Adding Golang code components to manage ingress, networking, storage, monitoring using Kubernetes.</li>
-        <li>- Developing projects to automate version update process on large set of yaml and json files using efficient
+        <li>- Added Golang code components to manage ingress, networking, storage, monitoring using Kubernetes.</li>
+        <li>- Developed projects to automate version update process on large set of yaml and json files using efficient
               algorithms in Python/Golang programming languages.</li>
       </div>
     <div className='exp_header'><div className='job_name'>Blackrock</div> <div className='job_date'>Jul-2019 to Jun-2021</div></div>

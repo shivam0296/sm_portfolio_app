@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
   return <div className='bottom_tab'>
       <div className='footer_text'>
-      Website designed and Maintained by Shivam Mishra
+      &copy; 2022 Shivam Mishra. All rights reserved
       </div>
       </div>;
 };
