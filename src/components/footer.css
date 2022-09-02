@@ -26,7 +26,7 @@
         margin-left: 0px;
         margin-top: 15px;
         width: auto;
-        width: 500px;
+        width: 510px;
         text-align: center;
         color: white;
         background: #000428;
@@ -34,6 +34,7 @@
         background: linear-gradient(to right, #000428, #004e92);
         border-radius: 25px;
         box-shadow: 10px 10px 8px #888888;
+        font-size: larger;
     }
 
     .footer_text{
