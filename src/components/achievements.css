@@ -43,7 +43,7 @@
   .a_box{
     background: white;
     box-shadow: 5px 10px 8px #888888;
-    width: 500px; 
+    width: 510px; 
     height: auto;
     margin-top: 15px;
     margin-left: 0px;
@@ -52,6 +52,7 @@
     font-family: arial;
     vertical-align: top;
     display: inline-block;
+    font-size: larger;
   }
   
 }

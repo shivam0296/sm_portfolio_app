@@ -130,7 +130,7 @@ i {
 
 @media screen and (max-width: 600px) {
   .side_tab {
-    width: 500px;
+    width: 510px;
     margin-left: 0px;
     text-align: center;
     vertical-align: top;
@@ -141,4 +141,63 @@ i {
     background: linear-gradient(to right, #000428, #004e92,white);
     box-shadow: 10px 10px 8px #888888;
   }
+
+  .img{
+    height: 190px;
+    width: 200px;
+    padding:5px;
+    display:inline-block;
+    vertical-align:top;
+    border-radius: 25px;
+    object-fit: cover;
+    border: 5px solid grey;
+    margin-left: 50px;
+  }
+
+  .connect li{
+    list-style: none;
+    line-height: 100px;
+    
+  }
+
+  .name{
+    padding: 5px;
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+  }
+
+  .dev{
+    font-family: arial;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .contact_info{
+    padding: 7px;
+    font-size: 20px;
+    font-family: arial;
+  }
+
+  .resume{
+    color: white;
+    padding-top: 10px;
+    font-size: 25px;
+    border-radius: 32px;
+    font-family: arial;
+    font-weight: bold;
+  }
+  
+  .resume a{
+    text-align: center;
+    color: #005A9C;
+    font-size: 18px;
+    text-decoration: none;
+    border: 3px solid grey;
+    border-radius: 25px;
+    padding: 5px;
+    background: white;
+    font-family: arial;
+  }
+  
 }

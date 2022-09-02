@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 600px) {
   .pro_box{
-    width: 500px;
+    width: 510px;
     height: auto;
     margin-top: 15px;
     font-style: arial;
@@ -41,6 +41,7 @@
     text-align: center;
     border-radius: 25px;
     padding: 10px;
+    font-size: larger;
   }
   
 }

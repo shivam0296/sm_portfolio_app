@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 600px) {
   .exp_box{
-    width: 500px;
+    width: 510px;
     height: auto;
     margin-top: 15px;
     font-style: arial;
@@ -73,6 +73,7 @@
     box-shadow: 10px 10px 8px #888888;
     border-radius: 25px;
     padding: 5px;
+    font-size: larger;
   }
   
 }
