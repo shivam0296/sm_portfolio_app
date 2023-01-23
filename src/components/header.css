@@ -1,37 +1,60 @@
-.side_tab {
-  width: 100%;
-  margin-left: 0px;
-  text-align: left;
-  vertical-align: top;
-  display: inline-block;
-  color: white;
-  border-radius: 25px;
-  background: #000428;
-  background: -webkit-linear-gradient(to right, #000428, #004e92, white);
-  background: linear-gradient(to right, #000428, #004e92,white);
+.header{
   box-shadow: 10px 10px 8px #888888;
 }
 
-.left_tab{
+.tab {
+  text-align: center;
   vertical-align: top;
   display: inline-block;
-  padding: 15px;
-  text-align: left;
-  width: 90%;
-}
-
-.connect{
-  margin-top: 10px;
-  vertical-align: top;
-  display: inline-block;
+  width:50%;
   padding: 10px;
-  text-align: right;
-  width: 10%;
+  position: sticky; top: 5px;
+  font-family: arial;
+  background: #fefefe;
+  color: black;
+  display:inline-block;
+  vertical-align: top;
 }
 
-.connect li{
+.tab li{
   list-style: none;
-  line-height: 30px;
+  padding: 5px;
+  word-spacing: 20px;
+  display: inline-block;
+  color: black
+}
+
+.tab a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 20px;
+  display: inline;
+  transition: all 0.2s linear;
+  border-radius: 20px;
+  padding: 10px;
+  width: max-content;
+  color: black
+}
+
+.tab a:hover:not(.active) {
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+}
+
+.tab a:focus{
+  background-color: lightgrey;
+  color: black;
+}
+
+.active {
+  background-color: darkblue;
+}
+
+.sidepanel {
+  display: none;
 }
 
 .name{
@@ -39,165 +62,58 @@
   font-size: 25px;
   font-family: arial;
   font-weight: bold;
-}
-
-.img{
-  height: 180px;
-  width: 150px;
-  padding:5px;
   display:inline-block;
-  vertical-align:top;
-  border-radius: 25px;
-  object-fit: cover;
-  border: 5px solid grey;
-}
-
-.dev{
-  font-family: arial;
-  font-size: 18px;
-  padding: 5px;
-}
-
-i {
-  padding: 5px;
-}
-
-.contact_info{
-  padding: 7px;
-  font-size: 16px;
-  font-family: arial;
-}
-
-.tech_head{
-  padding: 10px;
+  vertical-align: top;
+  width:20%;
   text-align: center;
-  font-size: 20px;
-  font-family: arial;
+  color: dodgerblue;
 }
 
-.interests{
-  padding: 10px;
-  text-align: center;
-  font-size: 20px;
-  color: white;
-  font-family: arial;
-}
-
-.tech_text{
-  font-size: medium;
-  padding: 5px;
-  color: white;
-}
-
-.tech_text li {
-  padding: auto;
-  text-align: center;
-  text-decoration: none;
-  padding: 5px;
-  list-style: none;
-  line-height: 30px;
-  font-family: arial;
-}
-
-.resume{
-  color: white;
-  padding-top: 10px;
-  font-size: 22px;
-  border-radius: 30px;
-  font-family: arial;
-}
-
-.resume a{
-  text-align: center;
-  color: #005A9C;
-  font-size: 14px;
-  text-decoration: none;
-  border: 2px solid grey;
-  border-radius: 25px;
-  padding: 5px;
-  background: white;
-  font-family: arial;
-  font-weight: bold;
-}
-
-.information{
+.logo{
+  width: 30%;
   text-align: center;
   vertical-align: top;
   display: inline-block;
-  padding: 5px;
-  margin-left: 0px;
+}
+
+.logo a{
+  word-spacing: 5px;
 }
 
 @media screen and (max-width: 600px) {
-  .side_tab {
-    width: 510px;
-    margin-left: 0px;
-    text-align: center;
+  .tab {
+    text-align: left;
     vertical-align: top;
     display: inline-block;
-    border-radius: 25px;
+    width:510px;
+    margin-top: 15px;
+    padding: 10px;
+    position: sticky; top: 5px;
+    font-family: arial;
     background: #000428;
-    background: -webkit-linear-gradient(to right, #000428, #004e92, white);
-    background: linear-gradient(to right, #000428, #004e92,white);
+    background: -webkit-linear-gradient(to right, #000428, #004e92);
+    background: linear-gradient(to right, #000428, #004e92);
+    border-radius: 25px;
     box-shadow: 10px 10px 8px #888888;
   }
 
-  .img{
-    height: 190px;
-    width: 200px;
-    padding:5px;
-    display:inline-block;
-    vertical-align:top;
-    border-radius: 25px;
-    object-fit: cover;
-    border: 5px solid grey;
-    margin-left: 50px;
-  }
-
-  .connect li{
+  .tab li{
     list-style: none;
-    line-height: 100px;
-    
+    padding: .5px;
+    display: inline-block;
   }
 
-  .name{
-    padding: 5px;
-    font-size: 30px;
-    font-family: arial;
-    font-weight: bold;
-  }
-
-  .dev{
-    font-family: arial;
-    font-size: 20px;
-    padding: 5px;
-  }
-
-  .contact_info{
-    padding: 7px;
-    font-size: 20px;
-    font-family: arial;
-  }
-
-  .resume{
+  .tab a {
     color: white;
-    padding-top: 10px;
-    font-size: 25px;
-    border-radius: 32px;
-    font-family: arial;
-    font-weight: bold;
-  }
-  
-  .resume a{
     text-align: center;
-    color: #005A9C;
-    font-size: 18px;
     text-decoration: none;
-    border: 3px solid grey;
-    border-radius: 25px;
-    padding: 5px;
-    background: white;
-    font-family: arial;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline;
+    transition: all 0.2s linear;
+    border-radius: 20px;
+    padding: 2px;
+    width: max-content;
   }
-  
+
 }

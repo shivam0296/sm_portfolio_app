@@ -4,9 +4,11 @@
 
 body {
   font-family: Arial;
-  background: rgb(201, 202, 195);
-  padding-left: 100px;
-  padding-right: 100px;
+  background: rgb(255, 255, 255);
+  margin-top: 6px;
+  margin-left: 0px;
+  margin-right: 0px;
+
 }
 
 @media screen and (max-width: 800px) {
@@ -14,7 +16,7 @@ body {
   body {
     font-family: Arial;
     padding: 0px;
-    background: rgb(201, 202, 195);
+    background: rgb(255, 255, 255);
   }
  
 }

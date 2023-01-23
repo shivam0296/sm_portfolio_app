@@ -1,18 +1,31 @@
 .tab {
-  background-color: #005A9C;
-  text-align: left;
+  text-align: center;
   vertical-align: top;
   display: inline-block;
-  width:100%;
-  margin-top: 15px;
+  width:60%;
+  /* margin-top: 15px; */
   padding: 10px;
   position: sticky; top: 5px;
   font-family: arial;
-  background: #000428;
-  background: -webkit-linear-gradient(to right, #000428, #004e92);
-  background: linear-gradient(to right, #000428, #004e92);
-  border-radius: 25px;
+  background: #fefefe;
+  /* background: -webkit-linear-gradient(to right, #000428, #004e92);
+  background: linear-gradient(to right, #000428, #004e92); */
+  /* border-radius: 25px; */
   box-shadow: 10px 10px 8px #888888;
+  color: black;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.name{
+  padding: 5px;
+  font-size: 25px;
+  font-family: arial;
+  font-weight: bold;
+  display:inline-block;
+  vertical-align: top;
+  width:30%;
+  text-align: center;
 }
 
 .tab li{
@@ -20,6 +33,7 @@
   padding: 5px;
   word-spacing: 20px;
   display: inline-block;
+  color: black
 }
 
 .tab a {
@@ -33,6 +47,7 @@
   border-radius: 20px;
   padding: 10px;
   width: max-content;
+  color: black
 }
 
 .tab a:hover:not(.active) {

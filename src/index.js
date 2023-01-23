@@ -7,9 +7,7 @@ import Research from './components/Research'
 import Experience from './components/Experience';
 import Achievements from './components/Achievements';
 import Hobbies from './components/Hobbies';
-import './index.css'
 import {Header} from './components/Header'
-import Menu from './components/Menu'
 import Footer from './components/Footer';
 import Blogs from './components/Blogs';
 import Projects from './components/Projects';
@@ -18,7 +16,6 @@ import Projects from './components/Projects';
   ReactDOM.render(
   <BrowserRouter>
   <Header/>
-  <Menu/>
   <Routes>
     <Route path="/" element={<Home></Home>} />
     <Route path="/research" element={<Research></Research>} />
