@@ -9,11 +9,9 @@ const Menu = () => {
       <div className='name'>Shivam Mishra</div>
       <div className='tab'>
         <li><Link to="/">About</Link></li>
-        <li><Link to="research">Research</Link></li>
         <li><Link to="projects">Projects</Link></li>
         <li><Link to="experience">Experience</Link></li>
-        <li><Link to="achievements">Achievements</Link></li>
-        <li><Link to="hobbies">Hobbies</Link></li>
+        <li><Link to="skills">Skills</Link></li>
       </div>
     </div>
 </React.Fragment>

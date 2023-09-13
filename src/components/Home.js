@@ -1,64 +1,78 @@
 import React from 'react';
 import './home.css'
+import img1 from './images/tw.gif'
+import img2 from './images/tw2.png'
+import img3 from './images/tw3.gif'
+import img4 from './images/tw4.png'
+import profile from './images/profile4.jpg'
+import resume from './Documents/Shivam_Mishra_Resume.pdf'
 
 const Home = () => {
-  return <div className='home_box'>
-    <div className='home_left'>
-     <div className='home_header'>About Me</div>
-     <div className='home_content'>
-     <div className='intro'>Hi, I'm an MS DS grad student at Luddy School of Informatics, Indiana University.</div>
-     <div className='intro_content'>
-        <div>💼 Currently I’m working as a graduate research assistant at O'Neill School of Public & Environmental Affairs.</div>
-        <div>🌎I love to solve real world problems using technology , and always challenge myself to learn about emerging problems and ways to solve them.</div>
-        <div>👨🏻‍💻I have 3 years of work experience where I got opportunities to design efficient solutions for various problems at team and organization level and helped the firm improve the product delivery efficiency and reduce the errors in the reports.</div>
-        <div>💻 My skillsets are as below:</div>
-        <div className='skills'>
-            <div>🖥 <mark>Programming languages:</mark> C, C++, Python, Golang, Java, SQL</div>
-            <div>📚<mark>Libraries/Frameworks:</mark> Pandas, Scikit-learn, Flask, NumPy, Spark, Hadoop</div>
-            <div>⚙️<mark>Other Tools & Databases:</mark> MATLAB, Tableau, Splunk, Git bash, Grafana, Kubernetes, MySQL, AWS</div>
-    </div>
-    <div>
-    🔎Currently I'm looking for Summer Internships for Data Scientist and Software Engineer roles.
-    </div>
-    <div>
-    🏆 I'm confident and highly motivated and I believe that my professional experience and skills will enable me to perform all the responsibilities diligently and help the organization solve business problems efficiently.
-    </div>
-    </div>
+  
+  return <>
+  <div className='home_box'>
+    <div className='intro'>
+      <div className='left_tab'>
+        <img src={profile} alt=''></img>
+        <a href={resume} target={'balnk'}>Resume</a>
+      </div>
+      <div className='middle'>
+        <h1>Hi There,<br/>I'm Shivam Mishra<br/>Data Science Grad Student at IUB</h1>
+        <h1>Software and Data professional</h1>
+        <h1>I'm looking for full time Data Analyst, <br/>Data Engineer positions, starting May 24</h1>
+      </div>
+      <div className='right_tab'>
+        <li>
+          <img src="https://img.icons8.com/fluency/55/000000/python.png" alt='python'/>
+        </li>
+        <li>
+          <img src="https://img.icons8.com/ios-filled/55/000000/flask.png" alt='flask'/>
+        </li>
+        <li>
+          <img src="https://img.icons8.com/color/55/000000/docker.png" alt='docker'/>
+        </li>
+        <li>
+          <img src="https://img.icons8.com/color/55/000000/kubernetes.png" alt='kubernetes'/>
+        </li>
+        <li>
+          <img src="https://img.icons8.com/dotty/55/000000/react.png" alt='react'/>
+        </li>
+       <li>
+          <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt='javascript'/>
+       </li>
+       <li>
+          <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt='react'/>
+       </li>
+       <li>
+          <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt='javascript'/>
+       </li>
+       <li>
+         <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt='html'/>
+       </li>
+       <li>
+         <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt='javascript'/>
+       </li>
       </div>
     </div>
-    <div className='home_right'>
-    <div className='home_header'>Tech Stack</div>
-    <div className='home_content_logos'>
-    <li>
-      <img src="https://img.icons8.com/fluency/55/000000/python.png" alt='python'/>
-      <img src="https://img.icons8.com/ios-filled/55/000000/flask.png" alt='flask'/>
-    </li>
-    <li>
-    <img src="https://img.icons8.com/color/55/000000/docker.png" alt='docker'/>
-    <img src="https://img.icons8.com/color/55/000000/kubernetes.png" alt='kubernetes'/>
-    </li>
-    <li>
-       <img src="https://img.icons8.com/dotty/55/000000/react.png" alt='react'/>
-       <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt='javascript'/>
-    </li>
-    <li>
-       <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt='react'/>
-       <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt='javascript'/>
-    </li>
-    <li>
-       <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt='html'/>
-       <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt='javascript'/>
-    </li>
+    <div className='about'>
+      <h1>Known for my exceptional teamwork and strong communication skills, I thrive in collaborative environments.</h1>
+      <h1>Passionate Data Science master’s student at Indiana University Bloomington dedicated to leveraging data to drive strategic business decisions.</h1>
+      <h1>With over 3 years of industry experience, I excel in both software development and data analytics, offering expertise in Python scripting for application development, automation, and data analysis.</h1>
+      <h1>Proficient in writing SQL scripts to generate insightful analytics reports for stakeholders, facilitating data-driven decision-making.</h1>
+      <h1>Hands-on experience in React for creating user-friendly front-end tools that enhance user experiences.</h1>
+      <h1>Well-versed in a range of tools and frameworks, including AWS S3, Spark, Hadoop, Postgres, Tableau, and Kubernetes, ensuring robust and scalable solutions.</h1>
+      <h1>Adept at understanding complex business operations, effectively collaborating with stakeholders, and crafting comprehensive software documentation.</h1>
+      
     </div>
-    <div className='home_header'>Interests</div>
-      <div className='home_content_interest'> 
-        <li>Machine Learning</li>
-        <li>Data Science and Analytics</li>
-        <li>Software development</li>
-        <li>Cloud and Big Data</li>
-      </div>
-    </div>
+    < div className='pic_box'>
+      <li><img src={img4}  alt=''></img></li>
+      <li><img src={img1}  alt=''></img></li>
+      <li><img src={img2}  alt=''></img></li>
+      <li><img src={img3}  alt=''></img></li>
   </div>
+  </div>
+  
+  </>
       
 };
 

@@ -13,7 +13,7 @@ import Blogs from './components/Blogs';
 import Projects from './components/Projects';
 
 
-  ReactDOM.render(
+  ReactDOM.render(<div className='flex-wrapper'>
   <BrowserRouter>
   <Header/>
   <Routes>
@@ -27,6 +27,7 @@ import Projects from './components/Projects';
     </Routes>
   <Footer/>
   </BrowserRouter>
+  </div>
    ,
     document.getElementById('root')
   );

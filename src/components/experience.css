@@ -8,7 +8,6 @@
   background: white;
   text-align: left;
   box-shadow: 10px 10px 8px #888888;
-  border-radius: 25px;
   padding: 5px;
 }
 
@@ -62,18 +61,46 @@
 
 @media screen and (max-width: 600px) {
   .exp_box{
-    width: 510px;
-    height: auto;
-    margin-top: 15px;
+    width: 100%;
+    margin-top: 10px;
     font-style: arial;
-    display: inline-block;
-    vertical-align: top;
     background: white;
     text-align: left;
-    box-shadow: 10px 10px 8px #888888;
-    border-radius: 25px;
     padding: 5px;
     font-size: larger;
   }
+
+  .exp_content{
+    padding: 10px;
+    width: 100%;
+  }
+
+  .exp_content li{
+    padding: 10px;
+    line-height: 30px;
+  }
+
+  .exp_head{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .exp_header{
+    text-align: left;
+    padding: 5px;
+    margin-top: 10px;
+    background: linear-gradient(to right, rgb(163, 213, 245) , white);
+  }
+
+
+.exp_sub_header{
+  text-align: left;
+  padding: 10px;
+  margin-top: 5px;
+  font-style: italic;
+  color: darkblue;
+}
   
 }

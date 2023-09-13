@@ -3,9 +3,7 @@ import './footer.css'
 
 const Footer = () => {
   return <div className='bottom_tab'>
-      <div className='footer_text'>
-      &copy; 2022 Shivam Mishra. All rights reserved
-      </div>
+      <p>Made with <span class="heart">&#10084;</span> by Shivam Mishra</p>
       </div>;
 };
 

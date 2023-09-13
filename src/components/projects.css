@@ -31,17 +31,30 @@
 
 @media screen and (max-width: 600px) {
   .pro_box{
-    width: 510px;
+    width: 100%;
     height: auto;
-    margin-top: 15px;
+    margin-top: 10px;
     font-style: arial;
-    display: inline-block;
-    vertical-align: top;
-    background: white;
-    text-align: center;
-    border-radius: 25px;
     padding: 10px;
     font-size: larger;
   }
+
+  .project_content{
+    padding: 10px;
+    width: 100%;
+  }
+
+  .project_content li{
+    padding: 10px;
+    line-height: 30px;
+  }
+
+  .project_head{
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
   
 }

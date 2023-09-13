@@ -1,16 +1,19 @@
 .header{
   box-shadow: 10px 10px 8px #888888;
+  position: sticky; top: 0px;
+  background: #d9eaf4;
+  border-style: solid;
+  border-color: #8bc3f4;
+  border-width: 5px;
 }
 
 .tab {
   text-align: center;
   vertical-align: top;
   display: inline-block;
-  width:50%;
-  padding: 10px;
-  position: sticky; top: 5px;
+  width:40%;
+  padding: 20px;
   font-family: arial;
-  background: #fefefe;
   color: black;
   display:inline-block;
   vertical-align: top;
@@ -21,15 +24,16 @@
   padding: 5px;
   word-spacing: 20px;
   display: inline-block;
-  color: black
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .tab a {
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 15px;
-  margin-top: 20px;
+  font-size: large;
+  margin-top: 10px;
   display: inline;
   transition: all 0.2s linear;
   border-radius: 20px;
@@ -42,11 +46,13 @@
   background-color: dodgerblue;
   color: white;
   font-weight: bold;
+  box-shadow: 8px 8px 10px #888888;
 }
 
 .tab a:focus{
-  background-color: lightgrey;
-  color: black;
+  background-color: rgb(179, 178, 178);
+  color: white;
+  font-weight: bold;
 }
 
 .active {
@@ -58,62 +64,102 @@
 }
 
 .name{
-  padding: 5px;
-  font-size: 25px;
-  font-family: arial;
+  font-size: xx-large;
   font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: dodgerblue;
+  width: 30%;
   display:inline-block;
   vertical-align: top;
-  width:20%;
   text-align: center;
-  color: dodgerblue;
+  padding: 15px;
+  text-align: center;
 }
 
 .logo{
-  width: 30%;
-  text-align: center;
+  width: 20%;
+  text-align: right;
   vertical-align: top;
   display: inline-block;
+  padding: 10px;
 }
 
 .logo a{
-  word-spacing: 5px;
+  word-spacing: 10px;
 }
 
 @media screen and (max-width: 600px) {
+
+  .header{
+    box-shadow: 10px 10px 8px #888888;
+    background: #d9eaf4;
+    border-style: solid;
+    border-color: #8bc3f4;
+    border-width: 5px;
+    position: sticky; top: 0px;
+  }
+
   .tab {
     text-align: left;
     vertical-align: top;
     display: inline-block;
-    width:510px;
-    margin-top: 15px;
-    padding: 10px;
-    position: sticky; top: 5px;
+    width:100%;
     font-family: arial;
-    background: #000428;
-    background: -webkit-linear-gradient(to right, #000428, #004e92);
-    background: linear-gradient(to right, #000428, #004e92);
-    border-radius: 25px;
-    box-shadow: 10px 10px 8px #888888;
+    color: black;
+    margin-top: -20px;
   }
-
+  
   .tab li{
     list-style: none;
-    padding: .5px;
     display: inline-block;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
   }
-
+  
   .tab a {
     color: white;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    font-size: 18px;
-    margin-top: 20px;
-    display: inline;
+    font-size: large;
     transition: all 0.2s linear;
     border-radius: 20px;
-    padding: 2px;
-    width: max-content;
+    color: black;
+  }
+  
+  .tab a:hover:not(.active) {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    box-shadow: 8px 8px 10px #888888;
+  }
+  
+  .tab a:focus{
+    background-color: rgb(179, 178, 178);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .active {
+    background-color: darkblue;
+  }
+  
+  .sidepanel {
+    display: none;
   }
 
+  .name{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: dodgerblue;
+    width: 100%;
+    text-align: center;
+    margin-top: -10px;
+  }
+  
+  .logo{
+    width: 100%;
+    text-align: center;
+    margin-top: -10px;
+  }
 }
