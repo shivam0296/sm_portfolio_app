@@ -62,14 +62,7 @@ const Home = () => {
       <h1>Hands-on experience in React for creating user-friendly front-end tools that enhance user experiences.</h1>
       <h1>Well-versed in a range of tools and frameworks, including AWS S3, Spark, Hadoop, Postgres, Tableau, and Kubernetes, ensuring robust and scalable solutions.</h1>
       <h1>Adept at understanding complex business operations, effectively collaborating with stakeholders, and crafting comprehensive software documentation.</h1>
-      
     </div>
-    < div className='pic_box'>
-      <li><img src={img4}  alt=''></img></li>
-      <li><img src={img1}  alt=''></img></li>
-      <li><img src={img2}  alt=''></img></li>
-      <li><img src={img3}  alt=''></img></li>
-  </div>
   </div>
   
   </>
