@@ -13,8 +13,9 @@ import Blogs from './components/Blogs';
 import Projects from './components/Projects';
 
 
-  ReactDOM.render(<div className='flex-wrapper'>
+  ReactDOM.render(<div className='site-container'>
   <BrowserRouter>
+  <div className='content-wrap'>
   <Header/>
   <Routes>
     <Route path="/" element={<Home></Home>} />
@@ -25,6 +26,7 @@ import Projects from './components/Projects';
     <Route path="/blogs" element={<Blogs/>} />
     <Route path="/projects" element={<Projects/>} />
     </Routes>
+    </div>
   <Footer/>
   </BrowserRouter>
   </div>

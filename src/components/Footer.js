@@ -1,10 +1,12 @@
 import React from 'react';
-import './footer.css'
+import './footer.css';
 
 const Footer = () => {
-  return <div className='bottom_tab'>
-      <p>Made with <span class="heart">&#10084;</span> by Shivam Mishra</p>
-      </div>;
+  return (
+    <footer className='footer'>
+      <p className='footer-text'>Made with <span className="heart">&#10084;</span> by Shivam Mishra</p>
+    </footer>
+  );
 };
 
 export default Footer;

@@ -1,165 +1,89 @@
-.header{
-  box-shadow: 10px 10px 8px #888888;
-  position: sticky; top: 0px;
-  background: #d9eaf4;
-  border-style: solid;
-  border-color: #8bc3f4;
-  border-width: 5px;
+.header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 0;
 }
 
-.tab {
-  text-align: center;
-  vertical-align: top;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.resume_button {
   display: inline-block;
-  width:40%;
-  padding: 20px;
-  font-family: arial;
-  color: black;
-  display:inline-block;
-  vertical-align: top;
-}
-
-.tab li{
-  list-style: none;
-  padding: 5px;
-  word-spacing: 20px;
-  display: inline-block;
-  color: black;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.tab a {
+  padding: 2px 2px;
+  background-color: #17a2b8;
   color: white;
-  text-align: center;
   text-decoration: none;
-  font-size: large;
-  margin-top: 10px;
-  display: inline;
-  transition: all 0.2s linear;
-  border-radius: 20px;
-  padding: 10px;
-  width: max-content;
-  color: black
+  border-radius: 5px;
+  transition: background-color 0.2s;
 }
 
-.tab a:hover:not(.active) {
-  background-color: dodgerblue;
-  color: white;
-  font-weight: bold;
-  box-shadow: 8px 8px 10px #888888;
+.resume_button:hover {
+  background-color: #ffffff;
+  color: black;
 }
 
-.tab a:focus{
-  background-color: rgb(179, 178, 178);
-  color: white;
+.name a {
+  text-decoration: none;
+  color: #17a2b8;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
-.active {
-  background-color: darkblue;
+.navigation .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
 }
 
-.sidepanel {
-  display: none;
+.navigation .nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
 }
 
-.name{
-  font-size: xx-large;
-  font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: dodgerblue;
-  width: 30%;
-  display:inline-block;
-  vertical-align: top;
-  text-align: center;
-  padding: 15px;
-  text-align: center;
+.navigation .nav-links li a:hover {
+  color: #17a2b8;
 }
 
-.logo{
-  width: 20%;
-  text-align: right;
-  vertical-align: top;
-  display: inline-block;
-  padding: 10px;
+.social-icons a {
+  margin-left: 15px;
 }
 
-.logo a{
-  word-spacing: 10px;
+.social-icons img {
+  height: 38px;
+  width: 38px;
+  transition: transform 0.2s ease-in-out;
 }
 
-@media screen and (max-width: 600px) {
+.social-icons img:hover {
+  transform: scale(1.2);
+}
 
-  .header{
-    box-shadow: 10px 10px 8px #888888;
-    background: #d9eaf4;
-    border-style: solid;
-    border-color: #8bc3f4;
-    border-width: 5px;
-    position: sticky; top: 0px;
-  }
-
-  .tab {
-    text-align: left;
-    vertical-align: top;
-    display: inline-block;
-    width:100%;
-    font-family: arial;
-    color: black;
-    margin-top: -20px;
-  }
-  
-  .tab li{
-    list-style: none;
-    display: inline-block;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .tab a {
-    color: white;
-    text-align: left;
-    text-decoration: none;
-    font-size: large;
-    transition: all 0.2s linear;
-    border-radius: 20px;
-    color: black;
-  }
-  
-  .tab a:hover:not(.active) {
-    background-color: dodgerblue;
-    color: white;
-    font-weight: bold;
-    box-shadow: 8px 8px 10px #888888;
-  }
-  
-  .tab a:focus{
-    background-color: rgb(179, 178, 178);
-    color: white;
-    font-weight: bold;
-  }
-  
-  .active {
-    background-color: darkblue;
-  }
-  
-  .sidepanel {
-    display: none;
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .name{
-    font-size: xx-large;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: dodgerblue;
-    width: 100%;
-    text-align: center;
-    margin-top: -10px;
+  .navigation .nav-links {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .logo{
-    width: 100%;
-    text-align: center;
-    margin-top: -10px;
+
+  .navigation .nav-links li {
+    margin: 5px 0;
+  }
+
+  .social-icons {
+    margin-top: 10px;
   }
 }
