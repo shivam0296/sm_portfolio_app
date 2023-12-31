@@ -3,6 +3,7 @@ import './experience.css';
 
 const Experience = () => {
   return (
+    <main>
     <div className='exp_box'>
       <h2 className='exp_head'>Professional Experience [4+ Years]</h2>
 
@@ -67,6 +68,7 @@ const Experience = () => {
       </div>
 
     </div>
+    </main>
   );
 };
 

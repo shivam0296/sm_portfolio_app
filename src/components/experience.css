@@ -1,5 +1,5 @@
 .exp_box {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   padding: 20px;
   font-family: 'Arial', sans-serif;
@@ -7,9 +7,9 @@
 
 .exp_head {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: #343a40;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .exp_entry {
@@ -17,38 +17,39 @@
   align-items: flex-start;
   margin-bottom: 20px;
   animation: fadeInUp 0.5s ease-in-out;
-}
-
-.exp_icon {
-  fill: #17a2b8;
-  margin-right: 15px;
-  width: 50px;
-  height: auto;
+  border: 3px solid #343a40;
+  padding: 20px;
+  font-size: large;
+  border-radius: 8px;
 }
 
 .exp_header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  font-size: larger;
 }
 
 .job_name {
   font-weight: bold;
   color: #17a2b8;
-  font-size: large;
+  font-size: larger;
 }
 
 .job_date {
   font-size: 0.9rem;
   color: #343a40;
+  font-size: large;
+  font-weight: bold;
 }
 
 .exp_sub_header {
   font-size: 1rem;
   margin-top: 5px;
-  color: #555;
+  color: #000000;
   background-color: #ecf8f8;
   padding: 2px;
+  font-size: large;
 }
 
 .exp_content {

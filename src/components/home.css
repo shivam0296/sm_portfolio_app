@@ -6,6 +6,7 @@
   padding: 50px 20px;
   font-family: 'Arial', sans-serif;
   animation: fadeInUp 0.5s ease-in-out;
+  margin-top: 50px;
 }
 
 @keyframes fadeIn {
@@ -65,8 +66,12 @@
 }
 
 .tech_icons img {
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 58px;
+}
+
+h3{
+font-size: larger;
 }
 
 @keyframes slideIn {
@@ -105,6 +110,15 @@
     padding: 20px;
   }
 
+  .profile_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #17a2b8;
+    margin-top: 100px;
+  }
+
   .intro_section h1 {
     font-size: 1.8rem;
   }
@@ -115,6 +129,7 @@
 
   .tech_icons {
     gap: 10px;
+    margin-top: 0px;
   }
 
   .tech_icons img {

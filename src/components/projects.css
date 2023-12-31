@@ -1,5 +1,5 @@
 .projects_container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   padding: 20px;
   font-family: 'Arial', sans-serif;
@@ -16,6 +16,9 @@
 .project {
   margin-bottom: 20px;
   animation: fadeInUp 0.5s ease-out forwards;
+  border: 3px solid #2c3136;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .project_title {
